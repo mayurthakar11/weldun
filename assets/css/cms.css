@@ -1,0 +1,1162 @@
+.cms a,
+body a {
+    color: inherit;
+}
+
+.cms a,
+.cms a:active,
+.cms a:focus,
+.cms a:hover,
+body a,
+body a:active,
+body a:focus,
+body a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -khtml-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.cms p,
+.cms ul li,
+body p,
+body ul li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #000000;
+    font-style: normal;
+    letter-spacing: 0;
+    word-spacing: 0;
+    text-transform: inherit;
+}
+
+.cms p+ol,
+.cms p+p,
+.cms p+ul,
+.cms ul li+ol,
+.cms ul li+p,
+.cms ul li+ul,
+body p+ol,
+body p+p,
+body p+ul,
+body ul li+ol,
+body ul li+p,
+body ul li+ul {
+    margin-top: 15px;
+}
+
+.cms p+.h1,
+.cms p+.h2,
+.cms p+.h3,
+.cms p+.h4,
+.cms p+.h5,
+.cms p+.h6,
+.cms p+h1,
+.cms p+h2,
+.cms p+h3,
+.cms p+h4,
+.cms p+h5,
+.cms p+h6,
+.cms ul li+.h1,
+.cms ul li+.h2,
+.cms ul li+.h3,
+.cms ul li+.h4,
+.cms ul li+.h5,
+.cms ul li+.h6,
+.cms ul li+h1,
+.cms ul li+h2,
+.cms ul li+h3,
+.cms ul li+h4,
+.cms ul li+h5,
+.cms ul li+h6,
+body p+.h1,
+body p+.h2,
+body p+.h3,
+body p+.h4,
+body p+.h5,
+body p+.h6,
+body p+h1,
+body p+h2,
+body p+h3,
+body p+h4,
+body p+h5,
+body p+h6,
+body ul li+.h1,
+body ul li+.h2,
+body ul li+.h3,
+body ul li+.h4,
+body ul li+.h5,
+body ul li+.h6,
+body ul li+h1,
+body ul li+h2,
+body ul li+h3,
+body ul li+h4,
+body ul li+h5,
+body ul li+h6 {
+    margin-top: 15px;
+}
+
+.cms img+p,
+body img+p {
+    margin-top: 15px;
+}
+
+.cms p,
+body p {
+    color: #000000;
+    font-weight: 500;
+}
+
+.cms .h1,
+.cms .h2,
+.cms .h3,
+.cms .h4,
+.cms .h5,
+.cms .h6,
+.cms h1,
+.cms h2,
+.cms h3,
+.cms h4,
+.cms h5,
+.cms h6,
+body .h1,
+body .h2,
+body .h3,
+body .h4,
+body .h5,
+body .h6,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-weight: 400;
+    line-height: 120%;
+    font-style: normal;
+    letter-spacing: 0;
+    word-spacing: 0;
+    text-transform: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.cms .h1+.h1,
+.cms .h1+.h2,
+.cms .h1+.h3,
+.cms .h1+.h4,
+.cms .h1+.h5,
+.cms .h1+.h6,
+.cms .h1+h1,
+.cms .h1+h2,
+.cms .h1+h3,
+.cms .h1+h4,
+.cms .h1+h5,
+.cms .h1+h6,
+.cms .h2+.h1,
+.cms .h2+.h2,
+.cms .h2+.h3,
+.cms .h2+.h4,
+.cms .h2+.h5,
+.cms .h2+.h6,
+.cms .h2+h1,
+.cms .h2+h2,
+.cms .h2+h3,
+.cms .h2+h4,
+.cms .h2+h5,
+.cms .h2+h6,
+.cms .h3+.h1,
+.cms .h3+.h2,
+.cms .h3+.h3,
+.cms .h3+.h4,
+.cms .h3+.h5,
+.cms .h3+.h6,
+.cms .h3+h1,
+.cms .h3+h2,
+.cms .h3+h3,
+.cms .h3+h4,
+.cms .h3+h5,
+.cms .h3+h6,
+.cms .h4+.h1,
+.cms .h4+.h2,
+.cms .h4+.h3,
+.cms .h4+.h4,
+.cms .h4+.h5,
+.cms .h4+.h6,
+.cms .h4+h1,
+.cms .h4+h2,
+.cms .h4+h3,
+.cms .h4+h4,
+.cms .h4+h5,
+.cms .h4+h6,
+.cms .h5+.h1,
+.cms .h5+.h2,
+.cms .h5+.h3,
+.cms .h5+.h4,
+.cms .h5+.h5,
+.cms .h5+.h6,
+.cms .h5+h1,
+.cms .h5+h2,
+.cms .h5+h3,
+.cms .h5+h4,
+.cms .h5+h5,
+.cms .h5+h6,
+.cms .h6+.h1,
+.cms .h6+.h2,
+.cms .h6+.h3,
+.cms .h6+.h4,
+.cms .h6+.h5,
+.cms .h6+.h6,
+.cms .h6+h1,
+.cms .h6+h2,
+.cms .h6+h3,
+.cms .h6+h4,
+.cms .h6+h5,
+.cms .h6+h6,
+.cms h1+.h1,
+.cms h1+.h2,
+.cms h1+.h3,
+.cms h1+.h4,
+.cms h1+.h5,
+.cms h1+.h6,
+.cms h1+h1,
+.cms h1+h2,
+.cms h1+h3,
+.cms h1+h4,
+.cms h1+h5,
+.cms h1+h6,
+.cms h2+.h1,
+.cms h2+.h2,
+.cms h2+.h3,
+.cms h2+.h4,
+.cms h2+.h5,
+.cms h2+.h6,
+.cms h2+h1,
+.cms h2+h2,
+.cms h2+h3,
+.cms h2+h4,
+.cms h2+h5,
+.cms h2+h6,
+.cms h3+.h1,
+.cms h3+.h2,
+.cms h3+.h3,
+.cms h3+.h4,
+.cms h3+.h5,
+.cms h3+.h6,
+.cms h3+h1,
+.cms h3+h2,
+.cms h3+h3,
+.cms h3+h4,
+.cms h3+h5,
+.cms h3+h6,
+.cms h4+.h1,
+.cms h4+.h2,
+.cms h4+.h3,
+.cms h4+.h4,
+.cms h4+.h5,
+.cms h4+.h6,
+.cms h4+h1,
+.cms h4+h2,
+.cms h4+h3,
+.cms h4+h4,
+.cms h4+h5,
+.cms h4+h6,
+.cms h5+.h1,
+.cms h5+.h2,
+.cms h5+.h3,
+.cms h5+.h4,
+.cms h5+.h5,
+.cms h5+.h6,
+.cms h5+h1,
+.cms h5+h2,
+.cms h5+h3,
+.cms h5+h4,
+.cms h5+h5,
+.cms h5+h6,
+.cms h6+.h1,
+.cms h6+.h2,
+.cms h6+.h3,
+.cms h6+.h4,
+.cms h6+.h5,
+.cms h6+.h6,
+.cms h6+h1,
+.cms h6+h2,
+.cms h6+h3,
+.cms h6+h4,
+.cms h6+h5,
+.cms h6+h6,
+body .h1+.h1,
+body .h1+.h2,
+body .h1+.h3,
+body .h1+.h4,
+body .h1+.h5,
+body .h1+.h6,
+body .h1+h1,
+body .h1+h2,
+body .h1+h3,
+body .h1+h4,
+body .h1+h5,
+body .h1+h6,
+body .h2+.h1,
+body .h2+.h2,
+body .h2+.h3,
+body .h2+.h4,
+body .h2+.h5,
+body .h2+.h6,
+body .h2+h1,
+body .h2+h2,
+body .h2+h3,
+body .h2+h4,
+body .h2+h5,
+body .h2+h6,
+body .h3+.h1,
+body .h3+.h2,
+body .h3+.h3,
+body .h3+.h4,
+body .h3+.h5,
+body .h3+.h6,
+body .h3+h1,
+body .h3+h2,
+body .h3+h3,
+body .h3+h4,
+body .h3+h5,
+body .h3+h6,
+body .h4+.h1,
+body .h4+.h2,
+body .h4+.h3,
+body .h4+.h4,
+body .h4+.h5,
+body .h4+.h6,
+body .h4+h1,
+body .h4+h2,
+body .h4+h3,
+body .h4+h4,
+body .h4+h5,
+body .h4+h6,
+body .h5+.h1,
+body .h5+.h2,
+body .h5+.h3,
+body .h5+.h4,
+body .h5+.h5,
+body .h5+.h6,
+body .h5+h1,
+body .h5+h2,
+body .h5+h3,
+body .h5+h4,
+body .h5+h5,
+body .h5+h6,
+body .h6+.h1,
+body .h6+.h2,
+body .h6+.h3,
+body .h6+.h4,
+body .h6+.h5,
+body .h6+.h6,
+body .h6+h1,
+body .h6+h2,
+body .h6+h3,
+body .h6+h4,
+body .h6+h5,
+body .h6+h6,
+body h1+.h1,
+body h1+.h2,
+body h1+.h3,
+body h1+.h4,
+body h1+.h5,
+body h1+.h6,
+body h1+h1,
+body h1+h2,
+body h1+h3,
+body h1+h4,
+body h1+h5,
+body h1+h6,
+body h2+.h1,
+body h2+.h2,
+body h2+.h3,
+body h2+.h4,
+body h2+.h5,
+body h2+.h6,
+body h2+h1,
+body h2+h2,
+body h2+h3,
+body h2+h4,
+body h2+h5,
+body h2+h6,
+body h3+.h1,
+body h3+.h2,
+body h3+.h3,
+body h3+.h4,
+body h3+.h5,
+body h3+.h6,
+body h3+h1,
+body h3+h2,
+body h3+h3,
+body h3+h4,
+body h3+h5,
+body h3+h6,
+body h4+.h1,
+body h4+.h2,
+body h4+.h3,
+body h4+.h4,
+body h4+.h5,
+body h4+.h6,
+body h4+h1,
+body h4+h2,
+body h4+h3,
+body h4+h4,
+body h4+h5,
+body h4+h6,
+body h5+.h1,
+body h5+.h2,
+body h5+.h3,
+body h5+.h4,
+body h5+.h5,
+body h5+.h6,
+body h5+h1,
+body h5+h2,
+body h5+h3,
+body h5+h4,
+body h5+h5,
+body h5+h6,
+body h6+.h1,
+body h6+.h2,
+body h6+.h3,
+body h6+.h4,
+body h6+.h5,
+body h6+.h6,
+body h6+h1,
+body h6+h2,
+body h6+h3,
+body h6+h4,
+body h6+h5,
+body h6+h6 {
+    margin-top: 5px;
+}
+
+.cms .h1+ol,
+.cms .h1+p,
+.cms .h1+ul,
+.cms .h2+ol,
+.cms .h2+p,
+.cms .h2+ul,
+.cms .h3+ol,
+.cms .h3+p,
+.cms .h3+ul,
+.cms .h4+ol,
+.cms .h4+p,
+.cms .h4+ul,
+.cms .h5+ol,
+.cms .h5+p,
+.cms .h5+ul,
+.cms .h6+ol,
+.cms .h6+p,
+.cms .h6+ul,
+.cms h1+ol,
+.cms h1+p,
+.cms h1+ul,
+.cms h2+ol,
+.cms h2+p,
+.cms h2+ul,
+.cms h3+ol,
+.cms h3+p,
+.cms h3+ul,
+.cms h4+ol,
+.cms h4+p,
+.cms h4+ul,
+.cms h5+ol,
+.cms h5+p,
+.cms h5+ul,
+.cms h6+ol,
+.cms h6+p,
+.cms h6+ul,
+body .h1+ol,
+body .h1+p,
+body .h1+ul,
+body .h2+ol,
+body .h2+p,
+body .h2+ul,
+body .h3+ol,
+body .h3+p,
+body .h3+ul,
+body .h4+ol,
+body .h4+p,
+body .h4+ul,
+body .h5+ol,
+body .h5+p,
+body .h5+ul,
+body .h6+ol,
+body .h6+p,
+body .h6+ul,
+body h1+ol,
+body h1+p,
+body h1+ul,
+body h2+ol,
+body h2+p,
+body h2+ul,
+body h3+ol,
+body h3+p,
+body h3+ul,
+body h4+ol,
+body h4+p,
+body h4+ul,
+body h5+ol,
+body h5+p,
+body h5+ul,
+body h6+ol,
+body h6+p,
+body h6+ul {
+    margin-top: 5px;
+}
+
+.cms .h1,
+.cms h1,
+body .h1,
+body h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.cms .h2,
+.cms h2,
+body .h2,
+body h2 {
+    color: #000000;
+    font-size: 35px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.cms .h3,
+.cms h3,
+body .h3,
+body h3 {
+    font-size: 28px;
+    color: #A40114;
+}
+
+.cms .h4,
+.cms h4,
+body .h4,
+body h4 {
+    font-size: 24px;
+    color: #A40114;
+}
+
+.cms .h5,
+.cms h5,
+body .h5,
+body h5 {
+    font-size: 22px;
+    color: #A40114;
+}
+
+.cms .h6,
+.cms h6,
+body .h6,
+body h6 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.cms img,
+body img {
+    max-width: 100%;
+}
+
+.cms ol,
+.cms ul,
+body ol,
+body ul {
+    padding: 0;
+}
+
+.cms ol li+li,
+.cms ul li+li,
+body ol li+li,
+body ul li+li {
+    margin-top: 3px;
+}
+
+.cms ol+.h1,
+.cms ol+.h2,
+.cms ol+.h3,
+.cms ol+.h4,
+.cms ol+.h5,
+.cms ol+.h6,
+.cms ol+h1,
+.cms ol+h2,
+.cms ol+h3,
+.cms ol+h4,
+.cms ol+h5,
+.cms ol+h6,
+.cms ol+p,
+.cms ul+.h1,
+.cms ul+.h2,
+.cms ul+.h3,
+.cms ul+.h4,
+.cms ul+.h5,
+.cms ul+.h6,
+.cms ul+h1,
+.cms ul+h2,
+.cms ul+h3,
+.cms ul+h4,
+.cms ul+h5,
+.cms ul+h6,
+.cms ul+p,
+body ol+.h1,
+body ol+.h2,
+body ol+.h3,
+body ol+.h4,
+body ol+.h5,
+body ol+.h6,
+body ol+h1,
+body ol+h2,
+body ol+h3,
+body ol+h4,
+body ol+h5,
+body ol+h6,
+body ol+p,
+body ul+.h1,
+body ul+.h2,
+body ul+.h3,
+body ul+.h4,
+body ul+.h5,
+body ul+.h6,
+body ul+h1,
+body ul+h2,
+body ul+h3,
+body ul+h4,
+body ul+h5,
+body ul+h6,
+body ul+p {
+    margin-top: 15px;
+}
+
+.cms ol,
+body ol {
+    list-style-type: decimal-leading-zero;
+    margin: 0;
+}
+
+.cms a {
+    color: #2f5a7b;
+}
+
+.cms img {
+    display: flex;
+    width: 50%;
+    margin: 15px 25px 15px 0;
+}
+
+.cms ol,
+.cms ul {
+    position: relative;
+    left: 0;
+}
+
+.cms ol li,
+.cms ul li {
+    line-height: 150%;
+}
+
+.cms ul li {
+    position: relative;
+    list-style: none;
+    padding-left: 30px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.cms ul li:before {
+    position: absolute;
+    content: "\e90e";
+    color: #A40114;
+    font-family: 'icomoon' !important;
+    font-size: 16px;
+    left: 2px;
+    top: 0;
+    font-weight: 600;
+}
+
+.cms ol {
+    left: 0;
+}
+
+.cms ol li {
+    color: #383838;
+    padding-left: 30px;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+}
+
+.cms ol li:before {
+    position: absolute;
+    content: '\e915';
+    color: #022330;
+    font-family: 'icomoon' !important;
+    font-size: 16px;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+}
+
+.cms h1+.table-responsive,
+.cms h2+.table-responsive,
+.cms h3+.table-responsive,
+.cms h4+.table-responsive,
+.cms h5+.table-responsive,
+.cms h6+.table-responsive {
+    margin-top: 15px;
+}
+
+.ac-table table,
+.cms table {
+    width: 100%;
+    margin-bottom: 0;
+    border: 1px solid rgba(47, 90, 123, .5);
+}
+
+.ac-table table tr:first-of-type td,
+.cms table tr:first-of-type td {
+    background-color: #fff;
+}
+
+.ac-table table tr:nth-of-type(odd),
+.cms table tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.ac-table table tr td,
+.ac-table table tr th,
+.cms table tr td,
+.cms table tr th {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #8b8b8b;
+    font-style: normal;
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.ac-table table tr th,
+.cms table tr th {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000000;
+    font-style: normal;
+}
+
+.ac-table table tr th:last-child,
+.cms table tr th:last-child {
+    border-right: 1px solid #000000;
+}
+
+.ac-table .table-responsive,
+.cms .table-responsive {
+    border: 0 solid #000000;
+}
+
+@media (max-width:992px) {
+    .cms .h1,
+    .cms h1,
+    body .h1,
+    body h1 {
+        font-size: 32px;
+    }
+    .cms .h2,
+    .cms h2,
+    body .h2,
+    body h2 {
+        font-size: 28px;
+    }
+    .cms .h3,
+    .cms h3,
+    body .h3,
+    body h3 {
+        font-size: 24px;
+    }
+    .cms .h4,
+    .cms h4,
+    body .h4,
+    body h4 {
+        font-size: 22px;
+    }
+    .cms .h5,
+    .cms h5,
+    body .h5,
+    body h5 {
+        font-size: 20px;
+    }
+    .cms .h6,
+    .cms h6,
+    body .h6,
+    body h6 {
+        font-size: 18px;
+    }
+}
+
+.jp-breadcrumb {
+    margin: 15px 0 5px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.jp-breadcrumb {
+    text-align: left;
+}
+
+.jp-breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #fff;
+    display: inline-block;
+}
+
+.jp-breadcrumb li+li {
+    margin-top: 0;
+}
+
+.jp-breadcrumb li+li::before {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #A40114;
+    content: "/";
+}
+
+.jp-breadcrumb li a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.jp-breadcrumb li.active {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #A40114;
+}
+
+.i-b_c_back-to-list {
+    text-align: right;
+    position: relative;
+    margin-top: 15px;
+    z-index: 1;
+}
+
+.i-b_c_back-to-list a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A40114;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.i-b_c_back-to-list a i {
+    margin-right: 5px;
+}
+
+.jp-pagination {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    display: -webkit-inline-flex;
+    display: -khtml-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+}
+
+.jp-pagination li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.jp-pagination li {
+    margin: 0 2px;
+    display: inline;
+    text-align: center;
+}
+
+.jp-pagination li {
+    margin-left: 10px;
+}
+
+.jp-pagination li a {
+    position: relative;
+    float: left;
+    padding: 0;
+    margin-left: -1px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #2f5a7b;
+}
+
+.jp-pagination li a i {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2f5a7b;
+}
+
+.jp-pagination li.active a {
+    color: #A40114;
+    cursor: default;
+    pointer-events: none;
+}
+
+@media (min-width:1024px) {
+    .cms a:hover {
+        color: #000000;
+    }
+    .jp-breadcrumb li a:hover {
+        color: #A40114;
+    }
+    .jp-pagination li a:hover {
+        color: #A40114;
+    }
+}
+
+@media(max-width:767px) {
+    .cms p,
+    .cms ul li,
+    body p,
+    body ul li {
+        font-size: 14px;
+    }
+}
+
+.modal {
+    z-index: 999999;
+}
+
+.modal-backdrop {
+    z-index: 9999;
+}
+
+.modal-header .close {
+    margin: -20px;
+    font-size: 10px;
+    color: #fff;
+    background: #A40114;
+    padding: 8px;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+
+/* table css S*/
+
+.table-responsive table {
+    overflow-x: scroll;
+    border: 1px solid #000000;
+}
+
+.table-responsive table th:first-child,
+.table-responsive table td:first-child {
+    position: sticky;
+    left: -1px;
+    color: #000000;
+    background: #f5f5f5;
+}
+
+.quantity-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+    height: 40px;
+}
+
+.quantity-counter .value {
+    margin: 0 3px;
+    text-align: center;
+    -moz-appearance: textfield;
+    max-width: 30px;
+    border: 0;
+    outline: none;
+}
+
+.quantity-counter .value::-webkit-outer-spin-button,
+.quantity-counter .value::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-counter .quntity-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quantity-counter .quntity-btn .decrement {
+    transform: rotate(180deg);
+}
+
+.quantity-counter .increment,
+.quantity-counter .decrement {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color: #002236;
+    font-size: 14px;
+    padding: 0;
+    line-height: 14px;
+}
+
+
+/* share button css s */
+
+.share-button {
+    text-align: right;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.share-button .dropdown-toggle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.share-button .dropdown-toggle i {
+    font-size: 14px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: -3px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.share-button ul li+li {
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.share-button ul li+li .dropdown-toggle:after {
+    content: none;
+}
+
+.share-button ul li:before {
+    content: none;
+}
+
+.share-button ul li .dropdown-menu {
+    position: absolute;
+    background: #000000;
+    left: auto !important;
+    right: -10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px 10px !important;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 0;
+    min-width: auto;
+    -webkit-box-shadow: 6.428px 7.66px 7.5px rgba(0, 0, 0, .1);
+    -khtml-box-shadow: 6.428px 7.66px 7.5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 6.428px 7.66px 7.5px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 6.428px 7.66px 7.5px rgba(0, 0, 0, .1);
+    -o-box-shadow: 6.428px 7.66px 7.5px rgba(0, 0, 0, .1);
+    box-shadow: 6.428px 7.66px 7.5px rgba(0, 0, 0, .1);
+}
+
+.share-button ul li .dropdown-menu:after {
+    position: absolute;
+    content: "";
+    left: auto;
+    right: 21px;
+    top: -7px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #022330;
+    margin: auto;
+}
+
+.share-button .dropdown {
+    overflow: visible;
+}
+
+.share-button .dropdown.open .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.share-button ul li .dropdown-menu li {
+    display: inline-block;
+    margin-top: 0;
+    line-height: 100%;
+    padding: 0;
+}
+
+.share-button ul li .dropdown-menu li a {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    height: 24px;
+    width: 24px;
+    line-height: 26px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 100%;
+    padding: 0;
+}
+
+@media(min-width:1200px) {
+    .share-button ul li .dropdown-menu li a:hover {
+        background: #A40114;
+        color: #ffffff;
+    }
+}
+
+@media(max-width:767px) {
+    .cms img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+/* share button css E */
