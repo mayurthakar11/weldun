@@ -43,10 +43,10 @@ $(window).on("load resize", function() {
         mouseDrag: true,
         responsive: {
             0: {
-                items: 1,
+                items: 3,
             },
             480: {
-                items: 2,
+                items: 3,
             },
             1024: {
                 items: 3,
@@ -88,7 +88,7 @@ $(window).on("load resize", function() {
     });
     var owl3 = $('.testimonial-slider.owl-carousel');
     owl3.owlCarousel({
-        margin: 0,
+        margin: 10,
         loop: true,
         nav: true,
         dots: false,
@@ -129,13 +129,30 @@ $(window).on("load resize", function() {
 
 
 // scroll S
-$(".tab_scroll").mCustomScrollbar({
-    axis: "x",
-    theme: "dark-3",
-    setLeft: 0,
-    advanced: { autoExpandHorizontalScroll: true },
-    scrollButtons: {
-        enable: true
+
+
+$(document).ready(function() {
+    $(window).on("resize", function(e) {
+        checkScreenSize();
+    });
+
+    checkScreenSize();
+
+    function checkScreenSize() {
+        var newWindowWidth = $(window).width();
+        if (newWindowWidth < 768) {
+            $(".tab_scroll").mCustomScrollbar({
+                axis: "x",
+                theme: "dark-3",
+                setLeft: 0,
+                advanced: { autoExpandHorizontalScroll: true },
+                scrollButtons: {
+                    enable: true
+                }
+            });
+        } else {
+            $(".tab_scroll").mCustomScrollbar("destroy"); //destroy scrollbar 
+        }
     }
 });
 // scroll E
