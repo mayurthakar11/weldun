@@ -159,16 +159,36 @@ $(document).ready(function() {
 
 
 // isotop S
-$(window).on('load', function() {
-    setTimeout(function() {
-        $('.grid').isotope();
-    }, 1000);
-});
-$('.grid').isotope({
-    itemSelector: '.grid-item',
-    percentPosition: true,
-    masonry: {
-        columnWidth: '.grid-sizer'
-    }
-});
+// $(window).on('load', function() {
+//     setTimeout(function() {
+//         $('.grid').isotope();
+//     }, 1000);
+// });
+// $('.grid').isotope({
+//     itemSelector: '.grid-item',
+//     percentPosition: true,
+//     masonry: {
+//         columnWidth: '.grid-sizer'
+//     }
+// });
 // isotop E
+// Wow animation S
+$(document).ready(function() {
+    new WOW({ mobile: false }).init();
+});
+// Wow animation E
+
+
+// open menu desktop S
+$(document).ready(function() {
+
+    $("#DeskMenu").click(function() {
+        $('body').addClass('open_desk')
+    });
+
+    $("#closediv").click(function() {
+        $('body').removeClass('open_desk')
+    });
+
+});
+// open menu desktop E
