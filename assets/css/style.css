@@ -1172,7 +1172,7 @@ button.btn:focus {
     .home-banner-02 .h-b_caption {
         padding: 0;
         max-width: 100%;
-        margin-top: 30px;
+        margin: 30px 0 20px 0;
     }
 }
 
@@ -2418,7 +2418,11 @@ textarea.form-control {
 
 @media(max-width:568px) {
     .footer-box .menu-link {
+        display: none;
         flex-direction: column;
+    }
+    .footer-box {
+        margin-top: 10px;
     }
     .footer-box .menu-link li+li {
         margin: 10px 0 0 0;
