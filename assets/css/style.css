@@ -1247,8 +1247,6 @@ button.btn:focus {
 }
 
 .home-banner-02 .carousel .h-b_fill {
-    height: 450px;
-    max-width: 512px;
     width: 40%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1392,9 +1390,6 @@ button.btn:focus {
 @media(max-width:568px) {
     .home-banner-02 .h-b_item .title {
         font-size: 24px;
-    }
-    .home-banner-02 .carousel .h-b_fill {
-        height: 300px;
     }
 }
 
