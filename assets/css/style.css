@@ -1026,6 +1026,9 @@ button.btn:focus {
         background-color: #ffffff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+    .fixed.main-header .menu ul .sub-menu {
+        top: 42px;
+    }
     .menu ul li:hover>.sub-menu {
         display: inherit;
         opacity: 1;
@@ -1217,6 +1220,19 @@ button.btn:focus {
 
 .home-banner-02 .h-b_item .title span {
     color: #AE011C;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.home-banner-02 .h-b_item .title span::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: #AE011C;
+    border-radius: 50%;
 }
 
 .home-banner-02 .h-b_item .banner-desc {
@@ -1668,7 +1684,7 @@ textarea.form-control {
 
 .inner-banner .i-b_fill {
     width: 100%;
-    height: 200px;
+    height: 400px;
     position: relative;
     z-index: 1;
     background-size: cover;
@@ -1689,15 +1705,16 @@ textarea.form-control {
 
 .inner-banner .inner-title-main {
     position: absolute;
-    top: auto;
-    bottom: 10px;
-    left: 15px;
+    left: 50%;
     z-index: 1;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .inner-banner .inner-title-main h1 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 80px;
+    line-height: 120%;
     letter-spacing: 2px;
     text-align: left;
     display: inline-block;
@@ -1762,12 +1779,10 @@ textarea.form-control {
 .inner-page-conatiner::before {
     position: absolute;
     content: '';
-    top: 0;
     bottom: 0;
-    left: 0;
     right: 0;
-    background-image: url(../images/service-bg.png);
-    background-size: contain;
+    background-image: url(../images/about_bg.png);
+    background-size: cover;
     background-repeat: repeat;
     z-index: -1;
     height: 100%;
@@ -1981,6 +1996,7 @@ textarea.form-control {
 
 .ourservices-slider .service-box {
     position: relative;
+    overflow: hidden;
 }
 
 .ourservices-slider .service-box .image .thumbnail_container {
@@ -2280,7 +2296,7 @@ textarea.form-control {
     transition: all .5s ease-in-out;
 }
 
-.our-project-main .project_wrap .project-box:hover img {
+.our-project-main .project_wrap .project-box:hover .image img {
     transform: scale(1.1);
 }
 
@@ -2662,6 +2678,10 @@ textarea.form-control {
 
 /* SERVICES LIST S */
 
+.service-list {
+    padding: 50px 0;
+}
+
 .service-list .service-box {
     margin-bottom: 30px;
     max-width: 100%;
@@ -2673,10 +2693,125 @@ textarea.form-control {
 
 /* PROJECT LIST S */
 
-.project-list .ourservices-slider .service-box {
+.project-list .project_wrap .project-box {
+    box-shadow: 0px 3px 16px #5e5e5e36;
+}
+
+.project-list .project_wrap {
     margin-bottom: 30px;
-    max-width: 100%;
+}
+
+.project-list .project_wrap .box-content {
+    flex-direction: column;
+    position: relative;
+}
+
+.project-list .project_wrap .box-content .left {
+    padding: 20px;
+}
+
+.project-list .project_wrap .box-content img {
+    max-width: 40px;
+}
+
+.project-list .project_wrap .box-content .right a {
+    padding: 20px;
 }
 
 
 /* PROJECT LIST E */
+
+
+/* Detail page Css S */
+
+.detail-content .image {
+    position: relative;
+    width: 40%;
+    float: left;
+    margin: 10px 25px 15px 0;
+}
+
+.detail-content .image img {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+
+.detail-content .image .box-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #000000;
+    padding: 20px;
+}
+
+.detail-content .image .box-content img {
+    max-width: 50px;
+}
+
+.detail-content .image .box-content .title {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.detail-content .image .box-content .title span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.detail-content .common-title {
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+@media(max-width:767px) {
+    .detail-content .image {
+        width: 100%;
+        float: none;
+        margin: 0 0 30px 0;
+    }
+}
+
+
+/* Detail page Css E */
+
+
+/* /testimonial-listing S*/
+
+.testimonial-listing .box_pad {
+    margin: 0;
+    width: 33.3%;
+    padding: 15px;
+}
+
+.testimonial-listing .box_pad .testi-box {
+    box-shadow: 0px 3px 16px #5e5e5e36;
+}
+
+.testimonial-listing .test_wrap {
+    flex-wrap: wrap;
+}
+
+@media(max-width:1199px) {
+    .testimonial-listing .box_pad .testi-box {
+        padding: 15px;
+    }
+    .testimonial-listing .box_pad {
+        padding: 10px;
+        width: 50%;
+    }
+}
+
+@media(max-width:767px) {
+    .testimonial-listing .box_pad {
+        padding: 10px 0;
+        width: 100%;
+    }
+}
+
+
+/* /testimonial-listing E*/

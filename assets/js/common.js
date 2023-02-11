@@ -38,7 +38,7 @@ $(window).on("load resize", function() {
         nav: false,
         dots: false,
         lazyLoad: true,
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 1000,
         mouseDrag: true,
         responsive: {
