@@ -2543,7 +2543,7 @@ textarea.form-control {
     .testi_image {
         display: none;
     }
-    .test_wrap {
+    .testimonial-main .test_wrap {
         margin: 15px;
     }
     .testimonial-slider {
@@ -2799,6 +2799,9 @@ textarea.form-control {
 @media(max-width:1199px) {
     .testimonial-listing .box_pad .testi-box {
         padding: 15px;
+    }
+    .testimonial-listing .test_wrap {
+        margin: 0;
     }
     .testimonial-listing .box_pad {
         padding: 10px;
