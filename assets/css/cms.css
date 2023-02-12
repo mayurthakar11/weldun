@@ -676,13 +676,14 @@ body ol {
 
 .cms ul li:before {
     position: absolute;
-    content: "\e90e";
+    content: "\e901";
     color: #A40114;
     font-family: 'icomoon' !important;
     font-size: 16px;
     left: 2px;
     top: 0;
     font-weight: 600;
+    transform: rotate(-90deg);
 }
 
 .cms ol {
@@ -699,13 +700,14 @@ body ol {
 
 .cms ol li:before {
     position: absolute;
-    content: '\e915';
-    color: #022330;
+    content: "\e901";
+    color: #A40114;
     font-family: 'icomoon' !important;
     font-size: 16px;
-    left: 0;
+    left: 2px;
     top: 0;
     font-weight: 600;
+    transform: rotate(-90deg);
 }
 
 .cms h1+.table-responsive,

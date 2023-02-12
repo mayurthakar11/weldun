@@ -613,6 +613,7 @@ button.btn:focus {
     display: block;
     padding-top: 8px;
     padding-bottom: 8px;
+    text-align: right;
 }
 
 .common-title {
@@ -1598,12 +1599,15 @@ textarea.form-control {
 }
 
 .select-group .check-mark::before {
-    content: "\e903";
-    display: inline-block;
-    font-family: 'icomoon' !important;
+    content: '';
     position: absolute;
-    left: -5px;
-    top: 8px;
+    top: 10px;
+    left: -4px;
+    width: 6px;
+    height: 10px;
+    border: solid #D30424;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
 
 .btn-group.open .dropdown-toggle {
@@ -1613,9 +1617,10 @@ textarea.form-control {
 .bootstrap-select.btn-group .dropdown-toggle .caret::after {
     font-family: 'icomoon';
     position: absolute;
-    content: "\e904";
-    top: -2px;
+    content: "\e901";
+    top: 3px;
     right: 0;
+    font-size: 10px;
     font-weight: 700;
 }
 
@@ -2818,3 +2823,111 @@ textarea.form-control {
 
 
 /* /testimonial-listing E*/
+
+
+/* contact US S */
+
+.contact-main .contact-inner-main {
+    display: flex;
+}
+
+.contact-main .contact-inner-main .map {
+    width: 50%;
+}
+
+.contact-main .contact-inner-main .contact-detail {
+    padding: 30px;
+}
+
+.contact-main .contact-inner-main .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-main .contact-inner-main .list li .label {
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-main .contact-inner-main .list li .label i {
+    margin-right: 20px;
+    background: transparent linear-gradient(206deg, #750415 0%, #D60020 42%, #570015 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 21px 9px rgb(0 0 0 / 10%);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+
+.contact-main .contact-inner-main .list li {
+    display: block;
+    color: #6f7183;
+    padding: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.contact-main .contact-inner-main .list li a {
+    color: #6f7183;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-main .contact-inner-main .list li a:hover {
+    color: #A40114;
+}
+
+.contact-main .con-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 30px;
+}
+
+.contact-main .con-form form {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.contact-main .con-form .image {
+    width: 50%;
+}
+
+.contact-main .con-form .common-title {
+    align-items: flex-start;
+}
+
+@media(max-width:991px) {
+    .contact-main .contact-inner-main {
+        flex-direction: column-reverse;
+    }
+    .contact-main .contact-inner-main .map {
+        width: 100%;
+    }
+    .contact-main .con-form form {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .contact-main .con-form {
+        flex-direction: column;
+        padding: 0;
+    }
+    .contact-main .con-form .image {
+        width: 100%;
+    }
+}
+
+
+/* contact US E */
