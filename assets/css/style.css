@@ -2909,16 +2909,24 @@ textarea.form-control {
 }
 
 @media(max-width:991px) {
+    .contact-main .contact-inner-main .list {
+        padding: 20px;
+        background: #fff;
+    }
     .contact-main .contact-inner-main {
         flex-direction: column-reverse;
     }
     .contact-main .contact-inner-main .map {
         width: 100%;
     }
+    .contact-main .contact-inner-main .contact-detail {
+        padding: 0;
+    }
     .contact-main .con-form form {
         width: 100%;
         margin-right: 0;
         margin-bottom: 40px;
+        margin-top: 30px;
     }
     .contact-main .con-form {
         flex-direction: column;
@@ -2926,6 +2934,12 @@ textarea.form-control {
     }
     .contact-main .con-form .image {
         width: 100%;
+    }
+    .contact-main .contact-inner-main .list li {
+        font-size: 16px;
+    }
+    .contact-main .contact-inner-main .list li .label {
+        font-size: 20px;
     }
 }
 
