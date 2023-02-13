@@ -1689,7 +1689,7 @@ textarea.form-control {
 
 .inner-banner .i-b_fill {
     width: 100%;
-    height: 400px;
+    height: 300px;
     position: relative;
     z-index: 1;
     background-size: cover;
@@ -2729,7 +2729,7 @@ textarea.form-control {
 
 /* Detail page Css S */
 
-.detail-content .image {
+.detail-content .project_images_slider {
     position: relative;
     width: 40%;
     float: left;
@@ -2742,7 +2742,7 @@ textarea.form-control {
     width: 100%;
 }
 
-.detail-content .image .box-content {
+.detail-content .project_images_slider .item .box-content {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -2750,11 +2750,15 @@ textarea.form-control {
     padding: 20px;
 }
 
-.detail-content .image .box-content img {
+.detail-content .project_images_slider .item img {
+    margin: 0;
+}
+
+.detail-content .project_images_slider .item .box-content img {
     max-width: 50px;
 }
 
-.detail-content .image .box-content .title {
+.detail-content .project_images_slider .box-content .title {
     font-size: 20px;
     color: #fff;
     display: flex;
@@ -2763,7 +2767,7 @@ textarea.form-control {
     margin-left: 20px;
 }
 
-.detail-content .image .box-content .title span {
+.detail-content .project_images_slider .box-content .title span {
     font-size: 16px;
     font-weight: 400;
 }
@@ -2773,8 +2777,18 @@ textarea.form-control {
     padding-bottom: 20px;
 }
 
+.detail-content .detail-btn {
+    margin-top: 20px;
+}
+
+.detail-content .detail-btn .primary_button {
+    color: #fff;
+    max-width: 250px;
+    width: 100%;
+}
+
 @media(max-width:767px) {
-    .detail-content .image {
+    .detail-content .project_images_slider {
         width: 100%;
         float: none;
         margin: 0 0 30px 0;
@@ -2893,6 +2907,7 @@ textarea.form-control {
     justify-content: space-between;
     background: #fff;
     padding: 30px;
+    box-shadow: 0px 7px 15px #0000001a;
 }
 
 .contact-main .con-form form {
@@ -2908,9 +2923,17 @@ textarea.form-control {
     align-items: flex-start;
 }
 
+.contact-main .contact_page_form {
+    width: 60%;
+}
+
+.contact-main .contact_page_form form {
+    width: 100%;
+}
+
 @media(max-width:991px) {
     .contact-main .contact-inner-main .list {
-        padding: 20px;
+        padding: 20px 0;
         background: #fff;
     }
     .contact-main .contact-inner-main {
@@ -2930,7 +2953,6 @@ textarea.form-control {
     }
     .contact-main .con-form {
         flex-direction: column;
-        padding: 0;
     }
     .contact-main .con-form .image {
         width: 100%;
@@ -2941,7 +2963,202 @@ textarea.form-control {
     .contact-main .contact-inner-main .list li .label {
         font-size: 20px;
     }
+    .contact-main .contact_page_form {
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-main .contact_page_form form {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 
 /* contact US E */
+
+
+/* 404 S*/
+
+.not-found-page {
+    padding: 0 0 60px !important;
+}
+
+.not-found-page .error-center {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: auto;
+}
+
+.not-found-page .error-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not-found-page .image {
+    margin-top: -20px;
+    animation: spinnerRotateone 3s linear infinite;
+}
+
+.not-found-page .image img {
+    max-width: 50px;
+}
+
+.not-found-page .error-top .error-text {
+    margin-top: -25px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 6px 20px #68686821;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    animation: spinnerRotatetwo 3s linear infinite;
+}
+
+.not-found-page .error-top .error-text .title {
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    margin: 0;
+}
+
+.not-found-page .error-desc {
+    margin: 30px 0;
+    text-align: center;
+    color: #000000;
+}
+
+.not-found-page .error-btn {
+    max-width: 200px;
+    margin: auto;
+}
+
+@keyframes spinnerRotateone {
+    0% {
+        transform: translateX(0px) scale(1);
+    }
+    25% {
+        transform: translateX(-10px) scale(0.99);
+    }
+    50% {
+        transform: translateX(-20px) scale(0.98);
+    }
+    75% {
+        transform: translateX(-10px) scale(0.99);
+    }
+    100% {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes spinnerRotatetwo {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@media(max-width:767px) {
+    .not-found-page .error-top .error-text .title {
+        font-size: 100px;
+    }
+}
+
+
+/* 404 E */
+
+
+/* Thank you S */
+
+.thank_you_main {
+    padding: 100px 0;
+}
+
+.thank_you_main .center-box {
+    max-width: 700px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 15px #0000001a;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.thank_you_main .center-box:after {
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    right: -20px;
+    background-image: url(../images/about-bg-shape.png);
+    width: 90px;
+    height: 200px;
+    z-index: -1;
+}
+
+.thank_you_main .center-box .common-title {
+    padding-bottom: 20px;
+}
+
+.thank_you_main .center-box .small-title {
+    font-size: 70px;
+    line-height: 100%;
+    color: #000000;
+    margin: 0;
+    font-weight: 600;
+}
+
+.thank_you_main .center-box .small-title span {
+    color: #A40114;
+}
+
+.thank_you_main .center-box .short-desc {
+    margin: 30px 0;
+    color: #000000;
+}
+
+.thank_you_main .center-box .box-btn {
+    max-width: 200px;
+    margin: 40px auto 0;
+}
+
+@media(max-width:767px) {
+    .thank_you_main {
+        padding: 50px 0;
+    }
+    .thank_you_main .center-box {
+        padding: 30px 15px;
+    }
+    .thank_you_main .center-box .small-title {
+        font-size: 50px;
+        padding: 0 35px;
+    }
+    .thank_you_main .center-box .short-desc {
+        margin: 10px 0;
+    }
+    .thank_you_main .center-box:after {
+        bottom: -10px;
+        right: -10px;
+        height: 100px;
+    }
+}
+
+@media(max-width:479px) {
+    .thank_you_main .center-box .small-title {
+        font-size: 40px;
+    }
+}
+
+
+/* Thank you E */

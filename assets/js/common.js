@@ -121,7 +121,41 @@ $(window).on("load resize", function() {
             }
         }
     });
+    var owl4 = $('.project_images_slider.owl-carousel');
+    owl4.owlCarousel({
+        margin: 10,
+        loop: true,
+        nav: false,
+        dots: true,
+        lazyLoad: true,
+        autoplay: true,
+        smartSpeed: 500,
+        mouseDrag: true,
+        navText: ["<i class='icon-down-long' title='Previous'></i>", "<i class='icon-down-long' title='Next'></i>"],
+        responsive: {
+            0: {
+                items: 1,
 
+            },
+            568: {
+                items: 1,
+
+
+            },
+            767: {
+                items: 1,
+
+            },
+
+            991: {
+                items: 1,
+
+            },
+            1200: {
+                items: 1,
+            }
+        }
+    });
 
 });
 
